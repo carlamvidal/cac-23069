@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<body>
+    <header>
+        <h1>Clase 3 - Vamos a ver html semantico y formularios</h1>
+    </header>
+    <!--menu de navegacion-->
+    <nav>
+        <!--listas no ordenadas-->
+        <ul>
+            <li>
+                <a href="index-html"> HOME</a>
+            </li>
+            <li>
+                <a href="pizza.html"> PIZZA</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Qatar</h2>
+        <section>
+            <h3>grupos</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet pariatur, a atque facere tempore
+                laboriosam laudantium perspiciatis debitis quas libero quo, unde rerum repellat ullam consequuntur
+                possimus, nulla quam sit?
+            </p>
+        </section>
+        <section>
+            <h3>fechas</h3>
+            <!--listas ordenadas-->
+            <ol>
+                <li>
+                    fecha 1 dd/mm/aaaa
+                </li>
+                <li>
+                    fecha 2 dd/mm/aaaa
+                </li>
+            </ol>
+
+        </section>
+        <section>
+            <h3>Equipos</h3>
+            <!--tablas en html-->
+            <table border="1" width="100%">
+                <thead>
+                    <tr>
+                        <th>
+                            equipo
+                        </th>
+                        <th>
+                            DT
+                        </th>
+                        <th>
+                            grupo
+                        </th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+                <tr>
+                    <td>
+                        Argentina
+                    </td>
+                    <td align="center">
+                        Leonel Scaloni
+                    </td>
+                    <td>
+                        grupo f
+                    </td>
+                    </td>
+                <tr>
+                    <td>
+                        Brazil
+                    </td>
+                    <td align="center">
+                        Tite
+                    </td>
+                    <td>
+                        grupo h
+                    </td>
+                </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3" align="center">
+                            codo a codo 2023- fullstack java
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+    </main>
+    <!--aside plublicidad-->
+    <aside>
+        <!--caja de publicidad-->
+        <div>
+            <h5>Viajes a madrid</h5>
+            <!--url absoluta-->
+            <img
+                src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F4%2F44%2FPlaza_Mayor_de_Madrid_06.jpg&tbnid=GmjqDjuMiT9D1M&vet=12ahUKEwiD5dW70fr9AhVQupUCHZK6Bp4QMygCegUIARDoAQ..i&imgrefurl=https%3A%2F%2Fes.wikipedia.org%2Fwiki%2FPlaza_Mayor_de_Madrid&docid=XMhh2BxJq6eL_M&w=3872&h=2592&q=madrid&ved=2ahUKEwiD5dW70fr9AhVQupUCHZK6Bp4QMygCegUIARDoAQ" />
+        </div>
+        <div>
+            <h5>Maldivas</h5>
+            <!--url relativa-->
+            <img width="15" src="./img/maldivas.jpg" />
+
+        </div>
+        <!--al final del documento, en general, val el fooder-->
+        <footer>
+            <p>
+                aca va info institucional, mapa de sitiio
+            </p>
+
+            <p>contacto</p>
+            <form>
+                <label>comentario </label>
+                <textarea cols="10" rows="5"></textarea>
+                <label>Email: </label>
+                <input type="text">
+                <button>
+                    enviar
+                </button>
+            </form>
+            <p>mapa de sitio</p>
+            <dl>
+                <dt>home</dt>
+                <dd>pizzs</dd>
+                <dd>html-semantico</dd>
+            </dl>
+        </footer>
+</body>
+
+</html>

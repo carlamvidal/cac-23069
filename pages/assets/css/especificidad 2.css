@@ -1,0 +1,60 @@
+/* universal*/
+* {
+    color: red;
+    font-size: 18px;
+}
+/* selector de tipo*/
+h1 {
+    color: green;
+}
+/* selector de clase*/
+.h1 {
+    color: blue !important; /*important gana a todos*/
+    text-transform: uppercase;
+}
+/* selector por id*/
+#h1 {
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+/* MODELO DE CAJA*/
+.container {
+    background-color: aquamarine;
+    border: 5px solid black;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 45px;
+    margin-bottom: 20px;
+   /* box-sizing: content-box; /* el width y height no incluyen el margin, padding o border.*/
+   box-sizing: border-box;
+}
+.container-v2 {
+    border: 1px solid red;
+    margin-left: 5px;
+    margin-right: 25px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+
+}
+.container-v2 a {
+    display: block; /* asi se convierte un elemento inline en bloque*/
+    /*margin: 5px;*/
+    height: 50px;
+    width: 50;
+    background-color: aqua;
+    margin-bottom: 5px;
+}
+.container-v2 a[href='https://www.google.com'] {
+    font-size: 40px;
+
+    
+}
+/*selector por atributo
+=
+^=alt94: comience con tal cosa
+*=: que contenga tal cosa
+~=: que contenga tal cosa
+$= que termine con tal cosa*/

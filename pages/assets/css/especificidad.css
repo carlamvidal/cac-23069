@@ -1,0 +1,77 @@
+* {
+    color: cadetblue;
+}
+/* ESTO ES CLASE*/
+.parrafo {
+    color: blueviolet;
+    font-size: 14px;
+}
+/* ESTO ES ID*/
+#parrafo {
+    color: aqua;
+    font-size: 18px !important;
+}
+
+/*
+.estoy definiendo una clase, este es para muchas etiquetas
+#id: esto es para un unico elemnto en el html
+nombre de la eticqueta: es para todos p,h, etc*/
+/*inline >selector de TIPO*/
+p {
+    color: blue;
+    font-size: 12px;
+
+}
+
+/*la clase es mas especifica que el tipo*/
+/* inline > id > clase > tipo*/
+
+/*
+#text-content >p{
+    color: brown;
+}
+*/
+#text-content p {
+    color: brown !important;
+}
+
+/* los 2 ej anteriores son iguales para especificar p de determindo color, es el importan el que hace la diferencia*/
+#text-content p#pepe {
+    color: black !important;
+}
+
+/*selectores AVANZADOR*/
+/*selector Hijo > */
+#listado > li > a {
+    color: blue
+}
+/* selector hermanos adyacente+ */
+h1 + p {
+
+
+    font-size: 25px;
+}
+/* hermanos general ~*/
+h1 ~ p {
+
+    color: blueviolet;
+    font-size: 18px;
+}
+/* pseudo clases*/
+/* 
+first_child: toma el primer elemento
+last_child: toma el ultimo elemento*/
+/*p:first-child {
+
+}
+p:last-child {
+
+}*/
+#pseudo_clase  p:first-child {
+    color: crimson;
+}
+#pseudo_clase  p:last-child {
+    color: coral;
+}
+
+ 

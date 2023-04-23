@@ -1,0 +1,58 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,500;0,700;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.menu-container {
+    margin-bottom: 15px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.menu-container_logo {
+    background-image: url(https://www.bancoprovincia.com.ar/CDN/Get/logo_2021_S
+);
+    height: 50px;
+    background-repeat: no-repeat;
+    width: 200px;
+}
+
+.menu-container_links {
+    display: flex;
+
+}
+
+.links_left ul {
+    display: flex;
+}
+
+.links_left li {
+    list-style: none;/*para sacar los puntitos de adelante*/
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.link{
+    text-decoration: none; /* para sacar la linea de abajo*/
+
+    color: #000000; /* para sacar el color azul del link que tiene por defecto y asiagnale otro color*/
+
+}
+.link:hover { /* para atunuar el color cuando pasan el cursor*/
+    color:#363434
+}
+.link_right a {
+display: inline block; /*para poder dar ancho y alto para crear los botones*/
+height: 100%;
+border: 1px solid black;
+border-radius: 5px 10px 5px 10px;
+padding: 10px 5px;
+
+}
